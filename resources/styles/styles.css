@@ -95,7 +95,7 @@ session {
   align-items: center;  
 }
 
-img {
+session img {
   width: 80%;
   height: 80%;
 }
@@ -111,4 +111,9 @@ footer h3 {
   padding: 1rem;
 }
 
+@media only screen and (max-width: 480px) {
+  .box-container .box {
+    width: 100%;
+  }
+}
 
